@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-# base sql
+# base sql for capturing objects+SQL(SQL+PLAN+STATS) information
 # 获取数据库中被审核schema名称列表
 OWNER_LIST_SQL = """
 SELECT DISTINCT OWNER
